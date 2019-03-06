@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         <Counter store={counter} />
-        <Navbar data={counter} />
+        <Navbar store={counter} />
       </div>
     );
   }

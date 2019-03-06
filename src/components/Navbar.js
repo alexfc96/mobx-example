@@ -6,7 +6,7 @@ class Navbar extends Component {
     return (
       <div>
         Navbar
-        {this.props.data.value}
+        {this.props.store.value}
       </div>
     )
   }
